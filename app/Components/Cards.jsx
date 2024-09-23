@@ -6,7 +6,7 @@ import { MdDownloading } from "react-icons/md";
 import { motion } from "framer-motion"
 function Cards({data, reference}) {
   return (
-    <motion.div drag dragConstraints={reference} whileHover={{ scale: 1.1 }} className='relative w-[13rem] h-[17rem] rounded-[30px] bg-zinc-900 text-white px-4 py-5 overflow-hidden'>
+    <motion.div drag dragConstraints={reference} whileHover={{ scale: 1.1 }} className='relative w-[13rem] h-[17rem] rounded-[25px] bg-zinc-900/80 text-white px-4 py-5 overflow-hidden'>
         <FaImagePortrait/>
         <p className='text-sm leading-tight mt-5 font-semibold'>{data.desc}</p>
         <div>
